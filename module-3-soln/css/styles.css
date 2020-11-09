@@ -14,18 +14,22 @@ p {
 padding: 0 10px 0 10px;
 }
 
-h3 a, .navbar-brand  a {
+h1 > a, h3 a {
 	text-decoration: none;
 	color: #000000;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus, h3 a:focus, h3 a:hover {
+h1 a:hover, h1 a:focus, h3 a:focus, h3 a:hover {
   text-decoration: none;
   color: #000000;
 }
 
-.navbar-header {
-	background-color: #E1654B;
+.navbar-header, .container-fluid {
+	background-color: #E1C64B;
+}
+
+.navbar-brand span{
+	color: #000000;
 }
 
 h3 {
@@ -35,6 +39,7 @@ h3 {
 body {
 	font-family: 'Oxygen', sans-serif;
 	background-color: #E1C64B;
+	padding-top: 70px;
 }
 
 #collapsible-nav {
