@@ -1,0 +1,20 @@
+.navbar-header > span {
+	font-size: 1.5em;
+}
+
+#nav-list a {
+	text-align:center;
+}
+
+.spacing {
+	background-color: #cccccc;
+}
+
+p {
+padding: 0 10px 0 10px;
+}
+
+h3 > a, .navbar-brand > a {
+	text-decoration: none;
+	color: #000000;
+}
