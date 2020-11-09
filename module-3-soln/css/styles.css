@@ -1,4 +1,4 @@
-.navbar-header > span {
+#navbar-header > span {
 	font-size: 1.5em;
 }
 
@@ -7,7 +7,7 @@
 }
 
 .spacing {
-	background-color: #cccccc;
+	background-color: #E1654B;
 }
 
 p {
@@ -19,6 +19,24 @@ h3 a, .navbar-brand  a {
 	color: #000000;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover, .navbar-brand a:focus, h3 a:focus, h3 a:hover {
   text-decoration: none;
+  color: #000000;
+}
+
+.navbar-header {
+	background-color: #E1654B;
+}
+
+h3 {
+	padding-top: 10px
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #E1C64B;
+}
+
+#collapsible-nav {
+	color: #E1654B;
 }
